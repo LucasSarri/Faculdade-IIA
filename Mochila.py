@@ -17,11 +17,14 @@ PESO_MOCHILA = 13
 
 def geraPrimeirosIndividuos(n, tamanho):
     populacao = []
+
     for i in range(0, n):
         individuo = []
+
         for j in range(0, tamanho):
             individuo.append(random.randint(0,1))
         populacao.append({"individuo":individuo, "avaliacao":avalia(individuo)})
+
     return populacao
     
 def avalia(individuo):
@@ -82,7 +85,7 @@ def run(populacao, max):
 
 populacao = geraPrimeirosIndividuos(8,7)
 
-melhor = run(populacao, 1000)
+melhor = run(populacao, 5000)
 
 print("Melhor configuração: ")
 
