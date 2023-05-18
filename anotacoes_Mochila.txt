@@ -1,0 +1,162 @@
+## Antes de Inserir Mutações
+-- Primeiro Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 1000
+Melhor configuração = {'individuo':[0,0,0,1,1,1,0], 'avaliacao': 11}
+Avaliação melhor configuração = {'peso': 13, 'preco': 11}
+Tempo de execução = 0.06 segundos
+
+-- Segundo Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 3000
+Melhor configuração = {'individuo':[0,1,1,0,1,1,0], 'avaliacao': 17}
+Avaliação melhor configuração = {'peso': 10, 'preco': 17}
+Tempo de execução = 0.27 segundos
+
+-- Terceiro Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 5000
+Melhor configuração = {'individuo':[0,1,0,0,0,1,1], 'avaliacao': 15}
+Avaliação melhor configuração = {'peso': 10, 'preco': 15}
+Tempo de execução = 0.45 segundos
+
+-- Quarto Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 5000
+Melhor configuração = {'individuo':[1,1,1,0,0,1,0], 'avaliacao': 15}
+Avaliação melhor configuração = {'peso': 12, 'preco': 14}
+Tempo de execução = 0.28 segundos
+
+-- Quinto Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 5000
+Melhor configuração = {'individuo':[0,1,1,0,0,0,0], 'avaliacao': 10}
+Avaliação melhor configuração = {'peso': 4, 'preco': 10}
+Tempo de execução = 0.25 segundos
+
+-- Sexto Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 5000
+Melhor configuração = {'individuo':[1,1,0,0,1,0,0], 'avaliacao': 14}
+Avaliação melhor configuração = {'peso': 13, 'preco': 14}
+Tempo de execução = 0.25 segundos
+
+-- Sétimo Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 7000
+Melhor configuração = {'individuo':[1,0,0,0,0,1,1], 'avaliacao': 10}
+Avaliação melhor configuração = {'peso': 13, 'preco': 10}
+Tempo de execução = 0.42 segundos
+
+-- Oitavo Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 7000
+Melhor configuração = {'individuo':[0,1,1,0,1,0,0], 'avaliacao': 15}
+Avaliação melhor configuração = {'peso': 8, 'preco': 15}
+Tempo de execução = 0.39 segundos
+
+-- Nono Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 500
+Melhor configuração = {'individuo':[0,1,1,0,0,0,1], 'avaliacao': 16}
+Avaliação melhor configuração = {'peso': 9, 'preco': 16}
+Tempo de execução = 0.03 segundos
+
+-- Décimo Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 500
+Melhor configuração = {'individuo':[0,1,1,0,1,1,0], 'avaliacao': 17}
+Avaliação melhor configuração = {'peso': 10, 'preco': 17}
+Tempo de execução = 0.04 segundos
+
+## Após de Inserir Mutações
+-- Primeiro Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 500
+Melhor configuração = {'individuo':[0,1,1,0,1,0,1], 'avaliacao': 21}
+Avaliação melhor configuração = {'peso': 13, 'preco': 21}
+Tempo de execução = 0.04 segundos
+
+-- Segundo Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 500
+Melhor configuração = {'individuo':[1,1,1,0,0,1,0], 'avaliacao': 14}
+Avaliação melhor configuração = {'peso': 12, 'preco': 14}
+Tempo de execução = 0.03 segundos
+
+-- Terceiro Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 1000
+Melhor configuração = {'individuo':[1,0,1,0,1,1,0], 'avaliacao': 12}
+Avaliação melhor configuração = {'peso': 13, 'preco': 12}
+Tempo de execução = 0.06 segundos
+
+-- Quarto Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 1000
+Melhor configuração = {'individuo':[0,0,1,1,1,0,0], 'avaliacao': 12}
+Avaliação melhor configuração = {'peso': 12, 'preco': 12}
+Tempo de execução = 0.06 segundos
+
+-- Quinto Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 3000
+Melhor configuração = {'individuo':[0,1,1,0,1,1,0], 'avaliacao': 17}
+Avaliação melhor configuração = {'peso': 10, 'preco': 17}
+Tempo de execução = 0.21 segundos
+
+-- Sexto Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 3000
+Melhor configuração = {'individuo':[1,1,0,0,1,0,0], 'avaliacao': 14}
+Avaliação melhor configuração = {'peso': 13, 'preco': 14}
+Tempo de execução = 0.20 segundos
+
+-- Sétimo Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 5000
+Melhor configuração = {'individuo':[1,1,1,1,1,1], 'avaliacao': 0}
+Avaliação melhor configuração = {'peso': 28, 'preco': 29}
+Tempo de execução = 0.36 segundos
+
+-- Oitavo Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 7000
+Melhor configuração = {'individuo':[1,1,1,1,1,1], 'avaliacao': 0}
+Avaliação melhor configuração = {'peso': 28, 'preco': 29}
+Tempo de execução = 0.49 segundos
+
+-- Nono Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 7000
+Melhor configuração = {'individuo':[1,1,1,1,1,1], 'avaliacao': 0}
+Avaliação melhor configuração = {'peso': 28, 'preco': 29}
+Tempo de execução = 0.49 segundos
+
+-- Décimo Teste
+Quantidade de primeiros individuos = 8
+Tamanho dos primeiros individuos = 7
+Quantidade de gerações = 7000
+Melhor configuração = {'individuo':[1,1,1,1,1,1], 'avaliacao': 0}
+Avaliação melhor configuração = {'peso': 28, 'preco': 29}
+Tempo de execução = 0.49 segundos
+*OBS: Todos os individuos foram gerados selecionando todos os itens da lista
