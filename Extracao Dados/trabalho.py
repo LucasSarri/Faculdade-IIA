@@ -27,3 +27,4 @@ while indiceLinha < len(resultados):
     indiceLinha = indiceLinha + 1
 
 print(vetorLinhas)
+#borafazer
