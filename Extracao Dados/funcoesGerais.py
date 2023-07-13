@@ -1,3 +1,4 @@
+import heapq
 from bs4 import BeautifulSoup
 
 def extraiDados():
@@ -14,7 +15,7 @@ def extraiDados():
     # Laço para percorrer todas as linhas
     while indiceLinha < len(resultados):
         # Criando variáveis do indice de colunas e vetor de colunas
-        indiceColuna = 1
+        indiceColuna = 2
         vetorColunas = []
         # Buscando todas as colunas
         colunas = resultados[indiceLinha].find_all('td')
@@ -25,8 +26,11 @@ def extraiDados():
                 # Pegando o texto dentro das colunas e removendo lixo
                 elemento = colunas[indiceColuna].get_text().strip('=\n')
                 elemento = elemento.strip('<=\n/td>')
-                # Adicionando o elemento na lista de colunas
-                vetorColunas.append(int(elemento))
+                if(indiceColuna >= 2):
+                    # Adicionando o elemento na lista de colunas
+                    vetorColunas.append(int(elemento))
+                else:
+                    vetorColunas.append(elemento)
                 indiceColuna = indiceColuna + 1
         # Verificando se o vetor de colunas não esta vazio          
         if (vetorColunas != []):
@@ -35,9 +39,26 @@ def extraiDados():
         indiceLinha = indiceLinha + 1
     return vetorLinhas
 
-def separaData(vetor):
+def criaCont():
+    cont = []
     i = 0
-    while (i < len(vetor)):
-        vetor[i][0] = (vetor[i][0].split('/', 3))
+
+    while i < 60:
+        cont.append(0)
         i = i + 1
-    return vetor
+
+    return cont
+
+def contagem(lista, cont):
+    for i in lista:
+        for j in i:
+            cont[j-1] = cont[j-1] + 1
+    return cont
+
+def maisSorteados(cont):
+    indices_maiores = heapq.nlargest(6, range(len(cont)), key=cont.__getitem__)
+    j = 0
+    for i in indices_maiores:
+        indices_maiores[j] = i+1
+        j = j+1
+    return indices_maiores
